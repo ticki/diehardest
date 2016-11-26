@@ -1,6 +1,10 @@
 [package]
 name = "diehardest"
-version = "0.1.0"
-authors = ["ticki <ticki@users.noreply.github.com>"]
-
-[dependencies]
+version = "1.0.0"
+authors = ["ticki <Ticki@users.noreply.github.com>"]
+description = "A new approach to randomness testing."
+repository = "https://github.com/ticki/diehardest"
+documentation = "https://docs.rs/diehardest"
+license = "MIT"
+keywords = ["random", "test", "statistical", "distribution", "randomness"]
+exclude = ["target", "Cargo.lock"]
