@@ -94,8 +94,8 @@ pub struct ModularDivideByThree<R>(pub R);
 
 impl<R: Random> Random for ModularDivideByThree<R> {
     fn get_random(&mut self) -> u64 {
-        // 12297829382473035776 is the multiplicative inverse of 3 in the ring Z/2^64Z.
-        self.0.get_random().wrapping_mul(12297829382473035776)
+        // 12297829382473034411 is the multiplicative inverse of 3 in the ring Z/2^64Z.
+        self.0.get_random().wrapping_mul(12297829382473034411)
     }
 }
 
